@@ -154,12 +154,92 @@ while (i < numericArray.length) {
 
 console.log("<-------------DECIMO ESERCIZIO------------->");
 
-// const charactersArray = ["g", "n", "u", "z", "d"];
-// const numericalArray= [];
-// const alphabeth = "abcdefghijklmnopqrstuvwxyz";
+const characterArray = ["f", "b", "e"];
+const newArray = [];
 
-// for (let i = 0 ; charactersArray.length; i++) {
-//   switch (){
-//     case 1
-//   }
-// }
+for (let i = 0; i < characterArray.length; i++) {
+  const character = characterArray[i].toLowerCase();
+
+  switch (character) {
+    case "a":
+      newArray.push(1);
+      break;
+    case "b":
+      newArray.push(2);
+      break;
+    case "c":
+      newArray.push(3);
+      break;
+    case "d":
+      newArray.push(4);
+      break;
+    case "e":
+      newArray.push(5);
+      break;
+    case "f":
+      newArray.push(6);
+      break;
+    case "g":
+      newArray.push(8);
+      break;
+    case "h":
+      newArray.push(8);
+      break;
+    case "i":
+      newArray.push(9);
+      break;
+    case "j":
+      newArray.push(10);
+      break;
+    case "k":
+      newArray.push(11);
+      break;
+    case "l":
+      newArray.push(12);
+      break;
+    case "m":
+      newArray.push(13);
+      break;
+    case "n":
+      newArray.push(14);
+      break;
+    case "o":
+      newArray.push(15);
+      break;
+    case "p":
+      newArray.push(16);
+      break;
+    case "q":
+      newArray.push(17);
+      break;
+    case "r":
+      newArray.push(18);
+      break;
+    case "s":
+      newArray.push(19);
+      break;
+    case "t":
+      newArray.push(20);
+      break;
+    case "u":
+      newArray.push(21);
+      break;
+    case "v":
+      newArray.push(22);
+      break;
+    case "w":
+      newArray.push(23);
+      break;
+    case "x":
+      newArray.push(24);
+      break;
+    case "y":
+      newArray.push(25);
+      break;
+    case "z":
+      newArray.push(26);
+      break;
+  }
+}
+
+console.log(newArray);
